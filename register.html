@@ -6,24 +6,28 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/stye.css">
-    <script src="https://kit.fontawesome.com/f1d99525ec.js" crossorigin="anonymous"></script>
-    <title>Login to RedX</title>
+    <title>Sign Up to RedX</title>
 </head>
 
 <body>
     <div class='login-outer-container'>
         <div class='login-container'>
             <div class='login-area'>
-                <h3>LOGIN TO REDX</h3>
-                <form class='login-items'>
-                    <label htmlFor="username">Email</label>
-                    <input type="email" class='login' name="email" placeholder='your-email@gmail.com' required />
+                <h3>REGISTER TO REDX</h3>
+                <form  class='login-items'>
+                    <label htmlFor="name">Name</label>
+                    <input type="text" class='login' name="name" placeholder='Your name' required />
+                    <label htmlFor="email">Email</label>
+                    <input type="email" class='login' name="email" placeholder="your-email@gmail.com" required />
                     <label htmlFor="password">Password</label>
-                    <input type="password" class='login' name="password" placeholder="Your Password" required />
-                    <input type="submit" class='login-btn' value="Login" />
+                    <input type="password" class='login' name="password" id="" placeholder='Enter password'
+                        required />
+                    <input type="submit" class='login-btn' value="Register" />
                 </form>
-                <p class='p'>New to RedX? <a class='a' href="register.html">Create an Account</a></p>
-                <p class='p'>Forgot password? <a href="#" class='a'>Reset Password</a></p>
+                <p class='p'>Already have an account?
+                    <a class='a' href="index.html">Please Login</a>
+                </p>
+                
                 <div class='social-login-container'>
                     <p class='prompt'>or</p>
                     <div class='social-login'>
