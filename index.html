@@ -4,24 +4,30 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="css/login.css">
     <title>Login to RedX</title>
 </head>
 <body>
-    <div className='login-outer-container'>
-        <div className='login-container'>
-        <div className='login-area'>
+    <div class='login-outer-container'>
+        <div class='login-container'>
+        <div class='login-area'>
                 <h4>LOGIN TO REDX</h4>
-                    <form  className='login-items'>
+                    <form  class='login-items'>
                     <label htmlFor="username">Email</label>
-                    <input type="email" className='login' name="email" placeholder='your-email@gmail.com' required/>
+                    <input type="email" class='login' name="email" placeholder='your-email@gmail.com' required/>
                     <label htmlFor="password">Password</label>
-                    <input type="password" className='login' name="password" placeholder="Your Password" required/>
-                    <input type="submit" className='login-btn' value="Login" />
+                    <input type="password" class='login' name="password" placeholder="Your Password" required/>
+                    <input type="submit" class='login-btn' value="Login" />
                     </form>
-                    <p className='p'>New to RedX? <a className='a' href="register">Create an Account</a></p>
-                    <p className='p'>Forgot password? <button onClick={resetPassword} className='btn btn-link a'>Reset Password</button></p>
-                    
+                    <p class='p'>New to RedX? <a class='a' href="register">Create an Account</a></p>
+                    <p class='p'>Forgot password? <a class='a'>Reset Password</a></p>
+                    <div class='social-login-container'>
+                        <p class='prompt'>or</p>
+                        <div class='social-login'>
+                        <button class='google-signin'></> Login with Google</button>
+                        <button  class='github-signin'>Login with Github</button>
+                        </div>
+                    </div> 
         </div>
     </div>
     </div>
