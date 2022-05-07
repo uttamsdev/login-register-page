@@ -1,35 +1,39 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/login.css">
+    <script src="https://kit.fontawesome.com/f1d99525ec.js" crossorigin="anonymous"></script>
     <title>Login to RedX</title>
 </head>
+
 <body>
     <div class='login-outer-container'>
         <div class='login-container'>
-        <div class='login-area'>
-                <h4>LOGIN TO REDX</h4>
-                    <form  class='login-items'>
+            <div class='login-area'>
+                <h3>LOGIN TO REDX</h3>
+                <form class='login-items'>
                     <label htmlFor="username">Email</label>
-                    <input type="email" class='login' name="email" placeholder='your-email@gmail.com' required/>
+                    <input type="email" class='login' name="email" placeholder='your-email@gmail.com' required />
                     <label htmlFor="password">Password</label>
-                    <input type="password" class='login' name="password" placeholder="Your Password" required/>
+                    <input type="password" class='login' name="password" placeholder="Your Password" required />
                     <input type="submit" class='login-btn' value="Login" />
-                    </form>
-                    <p class='p'>New to RedX? <a class='a' href="register">Create an Account</a></p>
-                    <p class='p'>Forgot password? <a class='a'>Reset Password</a></p>
-                    <div class='social-login-container'>
-                        <p class='prompt'>or</p>
-                        <div class='social-login'>
-                        <button class='google-signin'></> Login with Google</button>
-                        <button  class='github-signin'>Login with Github</button>
-                        </div>
-                    </div> 
+                </form>
+                <p class='p'>New to RedX? <a class='a' href="register">Create an Account</a></p>
+                <p class='p'>Forgot password? <a href="#" class='a'>Reset Password</a></p>
+                <div class='social-login-container'>
+                    <p class='prompt'>or</p>
+                    <div class='social-login'>
+                        <button class='google-signin'><i class="fa-brands fa-google"></i> Login with Google</button>
+                        <button class='github-signin'><i class="fa-brands fa-github"></i>Login with Github</button>
+                    </div>
+                </div>
+            </div>
         </div>
     </div>
-    </div>
 </body>
+
 </html>

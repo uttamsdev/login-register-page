@@ -1,8 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Alata&family=Comic+Neue:ital,wght@0,400;0,700;1,700&family=Montserrat:wght@400;700&family=Mulish:wght@300;400&family=Open+Sans:wght@400;600&family=Poppins:wght@400;500&family=Roboto:wght@400;500&display=swap');
+*{
+    font-family: 'Roboto', sans-serif;
+}
 .login-outer-container{
     min-height: 100vh;
 }
 .login-container{
-    margin-top: 70px;
+    margin-top: 90px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -12,7 +16,7 @@
     padding: 40px;
     box-shadow: 0 15px 30px 0 rgb(0 0 0 / 20%);
 }
-.login-area h4{
+.login-area h3{
     text-align: center;
 }
 .login-items{
@@ -21,18 +25,19 @@
 }
 label{
     margin-bottom: 5px;
-    font-size: 18px;
+    font-size: 19px;
 
 }
 .a{
     text-decoration: none;
     color: #d25904;
-    font-size: 16px;
+    font-size: 18px;
 }
 
 .login-container .p{
     margin: 0;
-    font-size: 16px;
+    font-size: 18px;
+    margin-bottom: 8px;
 }
 .a:hover{
     color: #ff6c03;
@@ -40,7 +45,7 @@ label{
 }
 .login-items .login{
     border-radius: 4px;
-    height: 54px;
+    height: 42px;
     background: #efefef;
     outline: none;
     border: none;
@@ -66,6 +71,7 @@ label{
     height: 50px;
     margin-top: 20px;
     margin-bottom: 15px;
+    font-size: 19px;
 }
 .prompt {
     text-align: center;
