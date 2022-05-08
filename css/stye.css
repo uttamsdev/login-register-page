@@ -116,4 +116,10 @@ label {
   .login-container {
     margin-top: 45px;
   }
+  .login-area{
+    width: 80%;
+    display: block;
+    margin: 0 auto;
+    padding: 20px;
+  }
 }
